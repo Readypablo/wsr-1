@@ -1,12 +1,14 @@
-*{
+* {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1vw;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -16,64 +18,72 @@ header{
     background: black;
     padding-top: 2vh;
 }
-.logo-header{
+
+.logo-header {
     margin-left: 2vw;
     width: 11vw;
     height: 8vh;
-
 }
-.center-header{
+
+.center-header {
     display: flex;
     justify-content: center;
     padding-top: 0.5vh;
     width: 33%;
 }
-.link-header{
+
+.link-header {
     text-decoration: none;
     color: white;
 }
-.right-header{
+
+.right-header {
     display: flex;
     justify-content: right;
     padding-top: 1.5vh;
     width: 33%;
 }
-.left-header{
+
+.left-header {
     display: flex;
     justify-content: left;
     width: 33%;
 }
-.nav-header{
+
+.nav-header {
     margin: 1vw;
     padding: 0.35vh;
     transition: all 0.5s ease;
 }
 
-.nav-header:hover{
+.nav-header:hover {
     transform: scale(1.2);
-    border-bottom: 0.10vw solid  #A0EEDC;
+    border-bottom: 0.10vw solid #A0EEDC;
 }
-.btn-header{
+
+.btn-header {
     background: none;
-    border: 0.15vw solid  white;
+    border: 0.15vw solid white;
     border-radius: 15px;
-    color:  white;
+    color: white;
     width: 6vw;
     height: 4vh;
     cursor: pointer;
     transition: all 1s ease;
 }
 
-.btn-header:hover{
-    border: 0.15vw solid  #A0EEDC;
-    color:  #A0EEDC;
+.btn-header:hover {
+    border: 0.15vw solid #A0EEDC;
+    color: #A0EEDC;
 }
+
 
 /* content */
 
 
 /* банер стили  */
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,94 +91,100 @@ main{
     text-align: center;
 }
 
-.baner{
+.baner {
     display: flex;
     justify-content: center;
-    background:#dbdbdb ;
+    background: #dbdbdb;
     font-family: 'Oswald', sans-serif;
 }
-.info-baner{
+
+.info-baner {
     width: 50%;
     text-align: right;
     padding-top: 13vh;
 }
 
-
-.big-text > p{
+.big-text>p {
     font-size: 2.5vw;
     margin: 0;
     line-height: 4vh;
-
 }
-.big-text{
+
+.big-text {
     margin-bottom: 10vh;
 }
 
-#btn-baner{
-    background: #42b197; 
+#btn-baner {
+    background: #42b197;
     border: 0;
     border-radius: 10px;
-    color:  white;
+    color: white;
     width: 13vw;
     padding: 0.4vw;
     cursor: pointer;
     transition: all 0.5s ease;
 }
-#btn-baner:hover{
-    border: 0.1vw solid  #20836c;
+
+#btn-baner:hover {
+    border: 0.1vw solid #20836c;
     color: #20836c;
     background: none;
 }
 
-.img-baner{
+.img-baner {
     width: 50%;
 }
-#baner-img{
+
+#baner-img {
     width: 100%;
     z-index: 1;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transform: scale(-1, 1);
     filter: brightness(90%)
-
 }
+
 
 /* инфограф стили  */
 
-.infograf{
+.infograf {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom:15vh ;
+    padding-bottom: 15vh;
 }
 
-.block-info{
+.block-info {
     width: 18vw;
     margin: 1vw;
     height: 55vh;
     filter: brightness(30%);
     transition: all 0.5s ease;
 }
-.block-info > p {
+
+.block-info>p {
     font-size: 1.5vw;
     border-bottom: 3px solid #42b197;
 }
-.zagolovok{
+
+.zagolovok {
     font-size: 3vw;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0;
 }
-.ifgr-abs{
+
+.ifgr-abs {
     position: relative;
     top: 30vh;
     opacity: 0;
     color: white;
     transition: all 0.5s ease;
 }
-.block-info:hover{
+
+.block-info:hover {
     filter: brightness(80%);
 }
 
-.block-info:hover .ifgr-abs{
+.block-info:hover .ifgr-abs {
     filter: brightness(100%);
     color: #37f7cc;
     opacity: 1;
@@ -177,35 +193,89 @@ main{
     padding: 0;
 }
 
-.spiker-all{
+.spiker-all {
     width: 100%;
     display: table-column;
     justify-content: center;
-   
-    
 }
-.spiker{
+
+.spiker {
     width: 9vw;
     height: 9vw;
     border-radius: 50%;
     border: 0.5vw solid #42b197;
-    margin: 1.5vh  1.5vw  ;
-    
+    margin: 1.5vh 1.5vw;
 }
 
-.block-spiker{
-display: flex;
-justify-content: center;
+.block-spiker {
+    display: flex;
+    justify-content: center;
 }
-.txt-spiker{
-  max-width: 12vw;
-  font-size: 0.8vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  height: auto;
-  text-align: center;
+
+.txt-spiker {
+    max-width: 12vw;
+    font-size: 0.8vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: auto;
+    text-align: center;
 }
-.txt-spiker > span{
+
+.txt-spiker>span {
     font-weight: bold;
     font-size: 1.1vw;
+}
+
+#spiker-btn {
+    width: 25vw;
+    height: 7vh;
+    font-size: 1.5vw;
+    margin: 3vh;
+    border-bottom: 2px solid black;
+    background: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#spiker-btn:hover {
+    border: 3px solid #20836c;
+    background: #f0f0f0;
+    box-shadow: 5px 5px 15px;
+}
+
+.programma {
+    width: 100%;
+    height: 50vh;
+    background: #0b2a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forum-prog {
+    width: 20%;
+    height: 30vh;
+    border: 2px solid white;
+    display: flex;
+}
+
+.forum-prog>img {
+    float: right;
+}
+
+.img-progr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.forum-prog>p {
+    color: white;
 }
