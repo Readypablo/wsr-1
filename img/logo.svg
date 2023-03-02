@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85mm"
+   height="13mm"
+   viewBox="0 0 85 13"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="200mm"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="241.50364"
+     inkscape:cy="254.32087"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-45.8722"
+       y="198.3298"
+       width="682.68628"
+       height="217.21835"
+       id="rect25533" />
+    <rect
+       x="62.062386"
+       y="327.85129"
+       width="330.54968"
+       height="93.093582"
+       id="rect13887" />
+    <rect
+       x="28.332829"
+       y="472.21381"
+       width="545.06964"
+       height="141.66414"
+       id="rect1551" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26047057,0,0,0.26047057,13.387752,-51.64051)"
+       id="text25531"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25533);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+         x="-45.873047"
+         y="233.7207"
+         id="tspan919"><tspan
+           style="font-family:Dubai;-inkscape-font-specification:'Dubai, Normal'"
+           id="tspan917">&lt;{Digital Forum}/&gt;</tspan></tspan></text>
+  </g>
+</svg>
