@@ -87,11 +87,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10vh;
+    padding-top: 15vh;
     text-align: center;
- 
 }
-
 
 .baner {
     display: flex;
@@ -262,27 +260,21 @@ main {
 .forum-prog {
     width: 26%;
     height: 30vh;
-   
     display: flex;
-
 }
-
-
-
-
 
 .forum-prog>p {
     color: white;
     text-align: left;
 }
 
-.forum-prog>p > span{
+.forum-prog>p>span {
     font-size: 2.5vw;
     font-weight: 900;
     text-align: center;
- 
 }
-.zagolovok-lfet{
+
+.zagolovok-lfet {
     font-size: 2.5vw;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
@@ -292,34 +284,179 @@ main {
     margin-bottom: 8vh;
 }
 
-/*  .registration{
-    width: 25%;
-    height: 40vh;
-    background: red;
-} 
- <!-- <div style="display: flex; justify-content: center;">
-
-<div class="registration">
-
-dfb
-</div> --> */
-
-#button-registr{
+#button-registr {
     width: 15vw;
     height: 7vh;
-
-    border-radius:1vw;
-
-    border:0;
+    border-radius: 1vw;
+    border: 0;
     box-shadow: 5px 10px 20px;
     cursor: pointer;
-  
     transition: all 0.1s ease;
 }
 
-#button-registr:hover{
-transform: scale(1.1);
-background: none;
-border: 5px solid black;
-box-shadow: 0px 0px 0px;
+#button-registr:hover {
+    transform: scale(1.1);
+    background: none;
+    border: 5px solid black;
+    box-shadow: 0px 0px 0px;
 }
+
+.sponsor-bl {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sponsor-img {
+    width: 33%;
+    height: 200px;
+}
+
+footer {
+    margin: 10vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+    background: black;
+    align-items: center;
+    justify-content: space-around
+}
+
+.flex-footer {
+    margin: 0;
+    display: flex;
+    color: white;
+}
+
+.flex-footer>p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8vw;
+}
+
+.img-footer {
+    width: 1.5vw;
+    height: 2.5vh;
+    filter: invert(100%);
+    padding: 0 5px 0 10px;
+}
+
+
+/* login.html */
+
+.registration {
+    width: 25%;
+    height: 50vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    padding-top: 1vh;
+}
+
+.text-registr {
+    width: 98%;
+    height: 4vh;
+    border: 0px;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    outline: none;
+    margin: 0;
+}
+
+.flex-reg {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-reg>input {
+    width: 50%;
+}
+
+.flex-reg>input:first-child {
+    border-top-right-radius: 0px;
+    border-right: 2px solid black;
+}
+
+#area-reg {
+    width: 98%;
+    height: 10vh;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+    margin: 0;
+}
+
+.user-sogl {
+    padding: 0 0.3vw 0 0.3vw;
+    font-size: 0.55vw;
+    text-align: left;
+    line-height: 0.5vw;
+}
+
+#btn-display {
+    font-size: 0.7vw;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+#oneprog {
+    display: none;
+}
+
+#send-form {
+    margin-top: 10vh;
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    border: 3px solid #b4ffef;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#send-form:hover {
+    transform: scale(1.1);
+}
+
+
+/* login.html */
+
+
+/* profil.html */
+
+.vxod-profile {
+    width: 20%;
+    height: 20vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    padding-top: 1vh;
+}
+
+.zagolovok-vhod {
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+#hide-vxod {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23vh;
+}
+
+
+/* profil.html */

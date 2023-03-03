@@ -9,6 +9,8 @@
 </head>
 <body>
     
+
+
 <header>
 
 <div class="left-header">
@@ -17,19 +19,18 @@
 
 <!-- меню горизонтальное -->
 <div class="center-header">
-    <div class="nav-header"> <a href="#" class="link-header">Программа</a></div>
-    <div class="nav-header"> <a href="#" class="link-header">Спикеры</a></div>
-    <div class="nav-header"> <a href="#" class="link-header">Трансляции</a></div>
-    <div class="nav-header"> <a href="#" class="link-header">Личный кабинет</a></div>
+    <div class="nav-header"> <a href="#programm" class="link-header">Программа</a></div>
+    <div class="nav-header"> <a href="pagers/speakers.php" class="link-header">Спикеры</a></div>
+    <div class="nav-header"> <a href="pagers/video.php" class="link-header">Трансляции</a></div>
+    <div class="nav-header"> <a href="pagers/profile.php" class="link-header">Личный кабинет</a></div>
 </div>
 <!-- меню горизонтальное -->
 
 <div class="right-header">
-    <input type="button" value="Вход" class="btn-header">
+   <a href="pagers/profile.php"> <input type="button" value="Вход" class="btn-header"></a>
 </div>
 
 </header>
-
 <main>
 
 <!-- банер блок -->
@@ -145,7 +146,7 @@
 </div>
 
 
-<div class="programma">
+<div class="programma" id="programm">
 
     <div class="forum-prog">
         <p> <span>2023</span><br> 4 марта 17:30 <br> <span>Безопaсность</span> <br>Игорь Тамбурский  </p>
@@ -167,20 +168,45 @@
 </div>
 
  <h1 class="zagolovok-lfet"> Хотите с нами? <br>
- Станте участником <input type="button" value="Зарегистрировавться" id="button-registr" >
+ Станте участником <a href="pagers/login.php"> <input type="button" value="Зарегистрировавться" id="button-registr" ></a>
 
 
  </h1>
 
+ <h1 class="zagolovok">Партнеры</h1>
 
 
+<div class="sponsor-bl">
+<div>
+<img src="https://www.company.rt.ru/about/identity/files/RGB_RT_logo-horizontal-slogan_main_ru.png" alt="" class="sponsor-img">
+<img src="https://financialit.net/sites/default/files/sver_4.png" alt="" class="sponsor-img">
+<img src="https://logodix.com/logo/668933.jpg" alt="" class="sponsor-img">
+</div>
 
+
+</div>
+
+<div class="sponsor-bl">
+<div>
+<img src="https://www.company.rt.ru/about/identity/files/RGB_RT_logo-horizontal-slogan_main_ru.png" alt="" class="sponsor-img">
+<img src="https://financialit.net/sites/default/files/sver_4.png" alt="" class="sponsor-img">
+<img src="https://logodix.com/logo/668933.jpg" alt="" class="sponsor-img">
+</div>
+
+
+</div>
 
 </main>
 
 <footer>
+<img src="img/logo.svg" alt="" class="logo-header" >
 
+<div class="flex-footer"> <p> организаторы -8(800)100-10-10    digital.forum2021@yandex.ru</p>
+<a href="#"><img src="img/facebook.png" class="img-footer"></a>
+<a href="#"><img src="img/discord.png"  class="img-footer"></a>
+<a href="#"><img src="img/telegram.png"  class="img-footer"></a>
+</div>
 </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
