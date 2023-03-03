@@ -148,28 +148,33 @@
 <div class="programma">
 
     <div class="forum-prog">
-        <p>cegth gegth <br> spiker</p>
-        <img src="https://www.esds.co.in/images/press-release/500_cp_.jpg" alt="" class="img-progr">
+        <p> <span>2023</span><br> 4 марта 17:30 <br> <span>Безопaсность</span> <br>Игорь Тамбурский  </p>
+       
     </div>
 
     <div class="forum-prog">
-        <p>cegth gegth <br> spiker</p>
-        <img src="https://www.esds.co.in/images/press-release/500_cp_.jpg" alt="" class="img-progr">
+    <p> <span>2023</span><br> 7 марта 18:30 <br> <span>IT-отрасли</span> <br>Игорь Тамбурский  </p>
+        
     </div>
 
     <div class="forum-prog">
-        <p>cegth gegth <br> spiker</p>
-        <img src="https://www.esds.co.in/images/press-release/500_cp_.jpg" alt="" class="img-progr">
+    <p> <span>2023</span><br> 28 февраль 19:00 <br> <span>Потребности в IT</span> <br>Игорь Тамбурский  </p>
+        
     </div>
 
 
 
 </div>
 
+ <h1 class="zagolovok-lfet"> Хотите с нами? <br>
+ Станте участником <input type="button" value="Зарегистрировавться" id="button-registr" >
 
-<h1>55</h1>
-<h1>55</h1>
-<h1>55</h1>
+
+ </h1>
+
+
+
+
 
 </main>
 
