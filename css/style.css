@@ -431,7 +431,7 @@ footer {
 /* login.html */
 
 
-/* profil.html */
+/* profil.html-false */
 
 .vxod-profile {
     width: 20%;
@@ -459,4 +459,170 @@ footer {
 }
 
 
-/* profil.html */
+/* profil.html-false */
+
+
+/* profil.html-true */
+
+#profile-true {
+    text-align: left;
+    padding-left: 15%;
+    display: none;
+}
+
+.prof-info {
+    background: rgb(242, 242, 242);
+    margin-right: 25%;
+    border-radius: 50px;
+}
+
+.prof-info>p {
+    font-size: 2vw;
+}
+
+.prof-info>p>span {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.profil-btn {
+    margin-top: 1vh;
+    margin-right: 2vw;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.flex {
+    display: flex;
+}
+
+.profil-btn:hover {
+    transform: scale(1.1);
+}
+
+.baner-info-mer {
+    margin-right: 25%;
+    background: #009f4a;
+    height: 18vh;
+    margin-right: 25%;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5vw;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.baner-info-mer>p>span {
+    font-weight: 900;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.baner-info-mer>p {
+    color: white;
+    margin: 0;
+    word-spacing: 15px;
+}
+
+.banner-info-block {
+    margin-right: 2vw;
+    border-right: 1px solid white;
+    padding-right: 0.5vw;
+}
+
+.banner-info-block>p>span {
+    font-weight: 900;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.banner-info-block>p {
+    margin: 0;
+}
+
+.banner-info-block>p>label {
+    letter-spacing: 9px;
+    color: white;
+}
+
+.baner-info-mer:nth-child(2n+1) {
+    margin-right: 25%;
+    background: black;
+    height: 18vh;
+    margin-right: 25%;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5vw;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+
+/* profil.html-true */
+
+
+/* translition.html-true */
+
+.flex>p {
+    font-size: 2.5vw;
+    text-align: left;
+    font-weight: 900;
+    margin-left: 20%;
+}
+
+#circle {
+    width: 2.006vw;
+    height: 4vh;
+    border-radius: 50%;
+    background: red;
+    margin-top: 7.03vh;
+    margin-left: 10px;
+    animation: miganie 1300ms infinite;
+}
+
+@keyframes miganie {
+    0% {
+        background-color: #20836c;
+        box-shadow: 0 0 5px #20836c;
+    }
+    50% {
+        background-color: #009f4a;
+        box-shadow: 0 0 20px #009f4a;
+    }
+    100% {
+        background-color: #20836c;
+        box-shadow: 0 0 5px #20836c;
+    }
+}
+
+.live-video {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.live-video>p>span {
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+.live-video>p {
+    font-size: 1.5vw;
+}
+
+
+/* translition.html-true */

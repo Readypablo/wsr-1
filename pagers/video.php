@@ -15,7 +15,25 @@
 
 
 <main>
-zhopa
+
+    <div class="flex">
+        <p>Live</p>
+        <div id="circle"></div>
+    </div>
+    <div>
+    <video src="https://www.youtube.com/watch?v=mo4uow0qydQ&t=7s"   width="60%" height="40%"  controls ></video>
+    </div>
+
+        <div class="live-video">
+    <p><span>Android texnologii</span><br>
+    Спикер:Владимир юнусов
+
+
+</p>
+    </div>
+
+
+
 </main>
 
 <?php include('footer.php') ?>
