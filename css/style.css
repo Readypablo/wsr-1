@@ -576,7 +576,7 @@ footer {
 /* profil.html-true */
 
 
-/* translition.html-true */
+/* translition.html*/
 
 .flex>p {
     font-size: 2.5vw;
@@ -624,5 +624,81 @@ footer {
     font-size: 1.5vw;
 }
 
+.sxron-vid {
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    margin-top: 5vh;
+    border-right: 2px solid black;
+}
 
-/* translition.html-true */
+.text-column>p {
+    padding-left: 2vw;
+    text-align: left;
+}
+
+.text-column>span {
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    font-weight: 900;
+}
+
+
+/* translition.html */
+
+
+/* speakers.html */
+
+.search-line-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+.search-speakers {
+    width: 40%;
+    height: 5vh;
+    padding-left: 1vw;
+    border-right: none;
+    outline: none;
+    border: 2px solid #20836c;
+    border-top-left-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-right-width: 0px;
+}
+
+.btn-speakers {
+    border: 2px solid #20836c;
+    border-left: none;
+    width: 6vw;
+    cursor: pointer;
+    font-weight: 800;
+    background: white;
+    color: black;
+    border-top-right-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    transition: all 0.5s ease;
+}
+
+.btn-speakers:hover {
+    background: black;
+    color: white;
+}
+
+.zagolovok-speakers {
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 1vh;
+    padding-left: 1vw;
+    border-left: 3px solid #009f4a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+/* speakers.html */

@@ -15,7 +15,100 @@
 
 
 <main>
-zhopa
+    <div class="search-line-btn">
+    <input type="text" class="search-speakers" placeholder="Поиск спикера">
+    <input type="button" value="search" class="btn-speakers">
+    </div>
+
+
+
+    <h1 class="zagolovok-speakers">IT-Специалисты</h1>
+    <div class="block-spiker">
+        <div>
+    <img src="../img/5.jpg" width="100%" height="100%" class="spiker">
+    <p  class="txt-spiker">
+    <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+Группы Эталон</p>
+</div>
+<div>
+    <img src="../img/6.jpg" width="100%" height="100%" class="spiker">
+    <p  class="txt-spiker">
+    <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+Группы Эталон</p>
+</div>
+<div>
+    <img src="../img/7.jpg" width="100%" height="100%" class="spiker">
+    <p  class="txt-spiker">
+    <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+Группы Эталон</p>
+</div>
+<div>
+    <img src="../img/8.jpg" width="100%" height="100%" class="spiker">
+    <p  class="txt-spiker">
+    <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+Группы Эталон</p>
+        </div>
+</div>
+
+
+<h1 class="zagolovok-speakers">Инвесторы</h1>
+<div class="block-spiker">
+                <div>
+            <img src="../img/5.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/6.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/7.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/8.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+                </div>
+        </div>
+
+
+
+        <h1 class="zagolovok-speakers">Государственные Чиновники</h1>
+        <div class="block-spiker">
+                <div>
+            <img src="../img/5.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/6.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/7.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+        </div>
+        <div>
+            <img src="../img/8.jpg" width="100%" height="100%" class="spiker">
+            <p  class="txt-spiker">
+            <span>Роман Тарасенков</span> <br>Директор департамента технологической платформы
+        Группы Эталон</p>
+                </div>
+        </div>
+
 </main>
 
 <?php include('footer.php') ?>
